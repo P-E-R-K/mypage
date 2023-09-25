@@ -282,6 +282,20 @@ body {
   cursor: pointer;
 }
 
+.contact .row .social-card {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 1rem 3 rem;
+  font-size: 1,7rem;
+  color: #fff;
+}
+
+.contact.row .social-card .social-card-img {
+  border-radius: 60%;
+  width: 35%;
+}
+
+
 /* Footer */
 footer {
   background-color: var(--primary);
