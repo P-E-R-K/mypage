@@ -15,3 +15,8 @@ document.addEventListener("click", function (e) {
     navbarNav.classList.remove("active");
   }
 });
+
+const fbButton = document.querySelector("#facebookButto ");
+fbButton.addEventListener('click', function() {
+    
+})
