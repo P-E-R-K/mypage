@@ -17,8 +17,6 @@ document.addEventListener("click", function (e) {
 });
 
 const fbButton = document.querySelector("#facebookButton ");
-fbButton.addEventListener('click', function(e) {
-    if (!hamburger.contains(e.target) && !navbarNav.contains(e.target)) {
-    navbarNav.classList.remove("active");
-  }
+fbButton.addEventListener('click', function() {
+   window.open('facebook.com', '_blank').focus();
 })
