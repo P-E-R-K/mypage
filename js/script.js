@@ -17,7 +17,7 @@ document.addEventListener("click", function (e) {
 });
 
 const fbButton = document.querySelector("#facebookButton ");
-fbButton.addEventListener('click', function() {
+fbButton.addEventListener('click', function(e) {
     if (!hamburger.contains(e.target) && !navbarNav.contains(e.target)) {
     navbarNav.classList.remove("active");
   }
