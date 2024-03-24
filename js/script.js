@@ -16,7 +16,7 @@ document.addEventListener("click", function (e) {
   }
 });
 
-const fbButton = document.querySelector("#facebookButton ");
+const fbButton = document.getElementById("#facebookButton");
 fbButton.addEventListener('click', function() {
    window.open('facebook.com', '_blank').focus();
 })
